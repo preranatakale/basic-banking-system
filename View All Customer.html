@@ -1,0 +1,166 @@
+<!Doctype html>
+
+<html lang="en">
+    <head>
+       
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>View Customer</title>
+        <!----stylesheet----->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+       <!----Bootstrp ol href create menu and close--->
+    </head>
+    <body>
+        <!---home section-->
+         <section class="header">
+             <div class="header-div">
+            <nav>
+                
+                <img src="Image/download.png">
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()" ></i>
+                    <ul>
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a href="View%20All%20Customer.html">View All Customer</a></li>
+                        <li><a href="Transfer%20Money.html">Transfer Money</a></li>
+                        <li><a href="About%20Us.html">About Us</a></li>
+                          
+                    </ul>
+            </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                
+            </nav>
+                
+             </div>
+        </section>
+        <!--view all customer -->
+<table id="customers">
+  <tr>
+    <th>Sr No</th>
+    <th>Name</th>
+    <th>E-mail ID</th>
+      <th>Bank Balance</th>
+  </tr>
+  <tr>
+      <td>1</td>
+    <td>Anshika salunkhe</td>
+    <td>anshika@gmail.com</td>
+      <td><p id="anshikaBankBalance">39000</p></td>
+  </tr>
+    <tr>
+  <td>2</td>
+    <td>Kedar Kadam</td>
+    <td>kedar@gmail.com</td>
+        <td><p id="kedarBankBalance">50000</p></td>
+  </tr>
+    <tr>
+  <td>3</td>
+    <td>Snehal Sonawane</td>
+    <td>sonavne@gmail.com</td>
+    <td>
+        <p id="snehalBankBalance">78500</p></td>
+  </tr>
+   <tr>
+  <td>4</td>
+    <td>Aditya Desai</td>
+    <td>aditya@gmail.com</td>
+    <td>
+    <p id="adityaBankBalance">61000</p>
+    </td>
+  </tr>
+   <tr>
+  <td>5</td>
+    <td>Archit Patil</td>
+    <td>archit@gmail.com</td>
+       <td><p id="architBankBalance">93400</p></td>
+  </tr>
+   <tr>
+  <td>6</td>
+    <td>Swara Teke</td>
+    <td>swarat@gmail.com</td>
+       <td><p id="swaraBankBalance">84600</p></td>
+  </tr>
+   <tr>
+  <td>7</td>
+    <td>Parth Gadkari</td>
+    <td>parth@gmail.com</td>
+       <td><p id="parthBankBalance">55000</p></td>
+  </tr>
+   <tr>
+  <td>8</td>
+    <td>Aadarsh Gurav </td>
+    <td>aadarsh@gmail.com</td>
+       <td><p id="aadarshBankBalance">88430</p></td>
+  </tr>
+   <tr>
+  <td>9</td>
+    <td>Minakshi More</td>
+    <td>minakshi6@gmail.com</td>
+       <td><p id="minashiBankBalance">33900</p></td>
+  </tr>
+    <tr>
+  <td>10</td>
+    <td>Sanvi Deshmukh</td>
+    <td>sanvi@gmail.com</td>
+        <td><p id="savniBankBalance">10000</p></td>
+  </tr>
+     <tr>
+  <td>11</td>
+    <td>Prerana Takale</td>
+    <td>praniti@gmail.com</td>
+         <td><p id="preranaBankBalance">40000</p></td>
+  </tr>
+     <tr>
+  <td>12</td>
+    <td>aditi phale</td>
+    <td>aditi@gmail.com</td>
+         <td><p id="aditiBankBalance">93000</p></td>
+  </tr>
+     <tr>
+  <td>13</td>
+    <td>Devraj Bhagwat</td>
+    <td>devraj@gmail.com</td>
+         <td><p id="devrajBankBalance">100000</p></td>
+    </tr>
+     <tr>
+  <td>14</td>
+    <td>Rachana Yadav</td>
+    <td>rachana@gmail.com</td>
+         <td><p id="rachanaBankBalance">35000</p></td>
+  </tr>
+     <tr>
+  <td>15</td>
+    <td>Raghav jamkhedkar</td>
+    <td>raghav@gmail.com</td>
+         <td><p id="raghavBankBalance">78500</p></td>
+  </tr>
+</table>
+              <!--Footer Section-->
+        
+        <section class="footer">
+            <div class="footer-div">
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+           <h3>©PRERANA TAKALE</h3>
+            </div>
+        </section>
+         <!-----Javascript for toggle menu--------->  
+        <script>
+            var navLinks= document.getElementById("navLinks");
+            
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-300px";
+            }
+            
+        </script>
+        
+    </body>
+</html>

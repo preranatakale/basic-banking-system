@@ -1,0 +1,95 @@
+<!Doctype html>
+
+<html lang="en">
+    <head>
+       
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>About Us</title>
+        <!----stylesheet----->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+       <!----Bootstrp ol href create menu and close--->
+    </head>
+    <body>
+        <!---home section-->
+         <section class="header">
+             <div class="header-div">
+            <nav>
+                
+                <img src="Image/download.png">
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()" ></i>
+                    <ul>
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a href="View%20All%20Customer.html">View All Customer</a></li>
+                        <li><a href="Transfer%20Money.html">Transfer Money</a></li>
+                        <li><a href="About%20Us.html">About Us</a></li>
+                          
+                    </ul>
+            </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                
+            </nav>
+             </div>
+             
+             
+   
+        </section>
+        <!--About Us-->
+         <section class="about">
+             <h1>Why Spark Foundation Bank?</h1><br><br>
+              <img src="Image/main-bank.png">
+          
+           <div class="about1">
+               
+             <div class="about-img1">
+                    <img src="Image/user.png" >
+                  
+                        <h2>Customer Service</h2>
+                 </div>
+             
+                
+                <div class="about-img1">
+                    <img src="Image/card.png" >
+                   
+                        <h2>Transfer Money in One Click</h2>
+                    </div>
+                   
+             <div class="about-img1">
+                 <img src="Image/transaction-history.png" >
+                 
+                    <h2>Safe Secure and Fast</h2>        
+             </div>
+             </div>
+             
+        
+        </section>
+        <!--Footer Section-->
+        
+        <section class="footer">
+            <div class="footer-div">
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+                <h3>©PRERANA TAKALE</h3>
+            </div>
+        </section>
+         <!-----Javascript for toggle menu--------->  
+        <script>
+            var navLinks= document.getElementById("navLinks");
+            
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-300px";
+            }
+            
+        </script>
+        
+    </body>
+</html>
